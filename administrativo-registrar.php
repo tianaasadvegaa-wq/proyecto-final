@@ -22,6 +22,7 @@
 
             <button class="submit" type="submit">Registrar</button>
         </form>
+        <a href="administrativo-ingreso.php">Ingresar como administrador</a>
     </div>
 </body>
 </html>
