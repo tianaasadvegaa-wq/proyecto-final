@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f6d1e9;
+
+    margin-top: 250px;
+}
+
+
+.pagina-acceso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 16px;
+    background-color: #f7f1ec;
+}
+
+.centro {
+    
+    width: 420px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.encabezado-tarjeta {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.subtitulo-marca {
+    display: block;
+    font-size: 11px;
+    color: #412c29;
+}
+
+
+
+.formulario-acceso{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-edicion {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto {
+    padding: 11px;
+    border: 1px solid #6b5342;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.contraseña{
+    padding: 11px;
+    border: 1px solid #6b5342;
+    border-radius: 8px;
+    margin-bottom: 16px;
+
+}
+
+
+
+
+.submit {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+
+.registrar {
+    margin-top: 18px;
+}
+
+
+
+
+.pagina-panel {
+    padding: 36px 20px;
+}
+
+.contenedor-panel {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 14px;
+    margin-bottom: 25px;
+}
+
+.formulario-sesion {
+    margin: 0;
+}
+
+.barra-superior .sesion {
+    width: auto;
+    padding: 9px 16px;
+    font-size: 13px;
+}
+
+.panel_de_usuario {
+    background-color: white;
+    border: 1px solid #e7dad1;
+    border-radius: 12px;
+    padding: 28px;
+
+}
+
+.dato-usuario {
+    padding: 12px 0;
+    
+}
+
+
+
+.valor-dato {
+
+    font-size: 15px;
+    color: #382921;
+}
+
+
+.pagina-administrador {
+    padding: 36px 20px;
+}
+
+.contenedor-administrador {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.encabezado-seccion {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.titulo-seccion {
+    font-size: 28px;
+    font-weight: normal;
+    color: #26201d;
+}
+
+.registrar-usuario {
+    width: 520px;
+    margin: 0 auto ;
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 28px;
+    
+}
+
+.lista-usuarios {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.contenedor-tabla {
+    background-color: white;
+    border: 1px solid #e7dad1;
+    border-radius: 12px;
+    padding: 24px;
+    
+}
+
+.tarjeta-edicion {
+    background-color: #faf6f3;
+    border: 1px solid #e7dad1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.subtitulo-edicion {
+    font-size: 19px;
+    font-weight: normal;
+    margin-bottom: 14px;
+    color: #26201d;
+}
+
+.acciones-formulario {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+.formulario-buscador {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.envoltorio-tabla {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabla-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+
+    font-size: 14px;
+}
+
+.tabla-usuarios th {
+    text-align: left;
+    padding: 12px 14px;
+    background-color: #f7f1ec;
+    color: #26201d;
+    font-weight: 700;
+    border-bottom: 2px solid #e7dad1;
+}
+
+.tabla-usuarios td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #f0e6df;
+    vertical-align: middle;
+}
+
+
+
+.contenedor-panel {
+    max-width: 820px;
+}
+
+.barra-superior {
+    flex-wrap: wrap;
+}
+
+.navegacion-estudio {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.enlace-navegacion {
+
+    font-size: 13px;
+
+    color: #463c37;
+
+}
+
+
+
+.portada-estudio {
+    background-color: #ffffff;
+    border: 1px solid #e7dad1;
+    border-radius: 12px;
+    padding: 36px 28px;
+    text-align: center;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 28px rgba(38, 32, 29, 0.05);
+}
+
+
+
+.seccion-estudio {
+    margin-bottom: 24px;
+}
+
+.titulo-seccion-estudio {
+    font-size: 22px;
+    font-weight: normal;
+    color: #26201d;
+    margin-bottom: 14px;
+}
+
+.grilla-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.tarjeta-estudio {
+    background-color: white;
+    border: 1px solid #e2dbd6;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+
+
+.cerrar{
+    margin-bottom: 10px;
+}
+
+.fotos-maquillaje{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border: 2px, solid, black;
+    border-radius: 10px;
+}
